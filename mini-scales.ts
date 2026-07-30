@@ -18,6 +18,7 @@ namespace miniScales {
     //% blockId=mini_scales_weight
     //% block="Mini Scales の重さ（整数g）"
     //% weight=100
+    //% help=github:mini-scales/docs/weight
     export function weight(): number {
         // 読み出すレジスタを指定する
         pins.i2cWriteNumber(
@@ -43,6 +44,7 @@ namespace miniScales {
     //% blockId=mini_scales_tare
     //% block="Mini Scales を風袋引きする"
     //% weight=90
+    //% help=github:mini-scales/docs/tare
     export function tare(): void {
         // レジスタ番号と実行値を送る2バイトのバッファ
         const data = pins.createBuffer(2)
