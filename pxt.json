@@ -1,16 +1,22 @@
 {
   "name": "mini-scales",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MakeCode extension for using the M5Stack Unit Mini Scales with BBC micro:bit V2 via I2C.",
   "license": "MIT",
   "dependencies": {
     "core": "*"
   },
   "files": [
-    "mini-scales.ts"
+    "mini-scales.ts",
+    "README.md",
+    "docs/weight.md",
+    "docs/tare.md"
   ],
   "testFiles": [
     "test.ts"
+  ],
+  "supportedTargets": [
+    "microbit"
   ],
   "public": true,
   "preferredEditor": "tsprj"
